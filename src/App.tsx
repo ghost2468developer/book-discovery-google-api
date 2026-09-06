@@ -7,8 +7,8 @@ import {
   useScroll,
   useSpring,
   useTransform,
-  type Variants,
-} from "framer-motion";
+  type Variants
+} from "framer-motion"
 import {
   ArrowLeft,
   ArrowRight,
@@ -32,8 +32,8 @@ import {
   Sparkles,
   Star,
   Telescope,
-  X,
-} from "lucide-react";
+  X
+} from "lucide-react"
 
 type ImageLinks = {
   smallThumbnail?: string;
@@ -1845,5 +1845,5 @@ export default function App() {
         )}
       </AnimatePresence>
     </div>
-  );
+  )
 }
